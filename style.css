@@ -1,0 +1,61 @@
+body{
+    background: #606C88;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.login-box{
+    background: #404040;
+    border-radius: 22px;
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    padding: 15px;
+}
+h1{
+    margin: 5px 0;
+}
+.login-box h1{
+    float: left;
+    border-bottom: 2px solid #a0c0c2;
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 15px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+    padding: 4px 0;
+    margin: 2px 0;
+}
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 13px;
+    width: 80px;
+    float: left;
+    margin: 5px;
+
+}
+.loginbutton{
+    color: white;
+    height: 40px;
+    width: 100%;
+    background: none;
+    border: 1px solid white;
+    margin: 8px 0;
+    padding: 10px 0;
+}
